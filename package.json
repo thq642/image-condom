@@ -1,0 +1,22 @@
+{
+  "name": "image-condom",
+  "main": "server.js",
+  "private": true,
+  "version": "1.0.1",
+  "description": "Data compression service that converts images to low-res WebP or JPEG on the fly.",
+  "author": "riqalter",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "express": "4.18.2",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2",
+    "sharp": "^0.31.3"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
