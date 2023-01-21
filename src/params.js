@@ -1,11 +1,11 @@
-const { bool } = require("sharp")
-
 const DEFAULT_QUALITY = 20
 
 function params(req, res, next) {
   let url = req.query.url
   if (Array.isArray(url)) url = url.join('&url=')
-  if (!url) return res.end('image-condom')
+
+  // if there's no url to process return index.html
+  if (!url) return res.sendFile('index.html', { root: __dirname + '/../public' })
 
   url = url.replace(/http:\/\/1\.1\.\d\.\d\/bmi\/(https?:\/\/)?/i, 'http://')
 
