@@ -1,6 +1,0 @@
-version: 2
-
-# for node aplication
-node:
-  image: node:16.9.1
-  command: bash -c "npm install && npm run dev"
