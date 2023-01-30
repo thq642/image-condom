@@ -3,8 +3,8 @@
   "description":
     "Data compression service that converts images to low-res WebP or JPEG on the fly.",
   "repository": "https://github.com/riqalter/image-condom",
-  "website": "https://imgproxy1.mikailthoriq.cf",
-  "logo": "https://imgproxy1.mikailthoriq.cf/favicon.ico",
+  "website": "https://imgproxy1.riqexpe.eu.org",
+  "logo": "https://imgproxy1.riqexpe.eu.org/favicon.ico",
   "keywords": ["proxy", "compression", "data saving", "compress image", "webp"],
   "env": {
     "LOGIN": {
