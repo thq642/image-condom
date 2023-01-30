@@ -1,10 +1,6 @@
 version: 2
 
-run:
-  # for node express
-  node:
-    command: npm start
-    port: 3000
-    healthcheck:
-      path: /
-      port: 3000
+# for node aplication
+node:
+  image: node:16.9.1
+  command: bash -c "npm install && npm run dev"
