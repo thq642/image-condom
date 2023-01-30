@@ -1,5 +1,10 @@
 version: 2
 
 run:
-  type: node
-  command: node index.js
+  # for node express
+  node:
+    command: npm start
+    port: 3000
+    healthcheck:
+      path: /
+      port: 3000
